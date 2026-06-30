@@ -1,0 +1,48 @@
+<svg width="900" height="180" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d1117"/>
+      <stop offset="50%" style="stop-color:#161b22"/>
+      <stop offset="100%" style="stop-color:#1f2937"/>
+    </linearGradient>
+    <linearGradient id="wave1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#1f6feb;stop-opacity:0.8"/>
+      <stop offset="100%" style="stop-color:#58a6ff;stop-opacity:0.4"/>
+    </linearGradient>
+    <linearGradient id="wave2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#58a6ff;stop-opacity:0.3"/>
+      <stop offset="100%" style="stop-color:#1f6feb;stop-opacity:0.6"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="180" fill="url(#bg)" rx="0"/>
+
+  <!-- Wave shapes -->
+  <path d="M0,120 C150,80 300,140 450,100 C600,60 750,120 900,90 L900,180 L0,180 Z" fill="url(#wave1)">
+    <animate attributeName="d"
+      values="M0,120 C150,80 300,140 450,100 C600,60 750,120 900,90 L900,180 L0,180 Z;
+              M0,100 C150,130 300,80 450,120 C600,140 750,80 900,110 L900,180 L0,180 Z;
+              M0,120 C150,80 300,140 450,100 C600,60 750,120 900,90 L900,180 L0,180 Z"
+      dur="6s" repeatCount="indefinite"/>
+  </path>
+  <path d="M0,140 C200,100 400,160 600,120 C750,90 850,140 900,130 L900,180 L0,180 Z" fill="url(#wave2)" opacity="0.6">
+    <animate attributeName="d"
+      values="M0,140 C200,100 400,160 600,120 C750,90 850,140 900,130 L900,180 L0,180 Z;
+              M0,130 C200,155 400,110 600,145 C750,160 850,115 900,140 L900,180 L0,180 Z;
+              M0,140 C200,100 400,160 600,120 C750,90 850,140 900,130 L900,180 L0,180 Z"
+      dur="8s" repeatCount="indefinite"/>
+  </path>
+
+  <!-- Text -->
+  <text x="450" y="68" font-family="Segoe UI, Arial, sans-serif" font-size="36" font-weight="700"
+    fill="white" text-anchor="middle" opacity="0">
+    Saleh Muhammad
+    <animate attributeName="opacity" from="0" to="1" dur="1.2s" fill="freeze"/>
+  </text>
+  <text x="450" y="105" font-family="Segoe UI, Arial, sans-serif" font-size="15"
+    fill="#8b949e" text-anchor="middle" opacity="0">
+    Software Engineer · AI/ML · SQA &amp; Automation
+    <animate attributeName="opacity" from="0" to="1" dur="1.2s" begin="0.5s" fill="freeze"/>
+  </text>
+</svg>

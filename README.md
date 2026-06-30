@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1f6feb,100:58a6ff&height=180&section=header&text=Saleh+Muhammad&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Software+Engineer+·+AI/ML+·+SQA+%26+Automation&descAlignY=58&descSize=16&descColor=8b949e" alt="header"/>
+  <img src="header.svg" alt="header" width="100%"/>
 </p>
 
 <p align="center">
@@ -140,5 +140,5 @@ A look at AI reliability as an infrastructure problem — arguing that the wrapp
 <p align="center"><i>"AI reliability is an infrastructure problem — the layer around the model matters."</i></p>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:58a6ff,50:1f6feb,100:0d1117&height=100&section=footer" alt="footer"/>
+  <img src="footer.svg" alt="footer" width="100%"/>
 </p>
