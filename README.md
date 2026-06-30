@@ -1,5 +1,10 @@
-<h1 align="center">Hi 👋, I'm Saleh Muhammad</h1>
-<h3 align="center">Software Engineer · AI / ML Enthusiast · SQA & Automation</h3>
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Saleh%20Muhammad&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=Software%20Engineer%20%C2%B7%20AI%2FML%20%C2%B7%20SQA%20%26%20Automation&descAlignY=55&descSize=16" alt="header"/>
+</p>
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=Hi+%F0%9F%91%8B%2C+I'm+Saleh+Muhammad;Software+Engineer+%26+AI%2FML+Enthusiast;SQA+%26+Test+Automation+Engineer;Building+Reliable+AI-Driven+Systems" alt="Typing SVG"/>
+</p>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/saleh-muhammad-b37386253/">
@@ -104,6 +109,10 @@ I'm a **Software Engineering graduate** from the National University of Modern L
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=SM649&theme=tokyonight" alt="GitHub Streak"/>
 </p>
 
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=SM649&theme=tokyo-night&hide_border=true&area=true" alt="Activity Graph"/>
+</p>
+
 ---
 
 ## 📚 Research & Writing
@@ -129,3 +138,7 @@ A look at AI reliability as an infrastructure problem — arguing that the wrapp
 </p>
 
 <p align="center"><i>"AI reliability is an infrastructure problem — the layer around the model matters."</i></p>
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" alt="footer"/>
+</p>
