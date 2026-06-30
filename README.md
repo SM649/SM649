@@ -13,7 +13,7 @@
   <a href="https://saleh-muhammad.netlify.app/">
     <img src="https://img.shields.io/badge/Portfolio-FF7139?style=for-the-badge&logo=firefox&logoColor=white" alt="Portfolio"/>
   </a>
-  <a href="mailto:saleh72muhammad@gmail.com">
+  <a href="mailto:smraja649@gmail.com">
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
   </a>
   <a href="https://github.com/SM649">
@@ -33,7 +33,7 @@ I'm a **Software Engineering graduate** from the National University of Modern L
 - 📝 Published research: *Beyond the Model: The Missing Layer in AI-Driven Systems*
 - 🤝 Part of the [@Orenda-Project](https://github.com/Orenda-Project) organization
 - 💬 Ask me about **NLP, sentiment analysis, Flask apps, or test automation**
-- 📫 Reach me at **saleh72muhammad@gmail.com**
+- 📫 Reach me at **smraja649@gmail.com**
 
 ---
 
@@ -132,7 +132,7 @@ A look at AI reliability as an infrastructure problem — arguing that the wrapp
   <a href="https://saleh-muhammad.netlify.app/">
     <img src="https://img.shields.io/badge/Portfolio-FF7139?style=for-the-badge&logo=firefox&logoColor=white"/>
   </a>
-  <a href="mailto:saleh72muhammad@gmail.com">
+  <a href="mailto:smraja649@gmail.com">
     <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
   </a>
 </p>
