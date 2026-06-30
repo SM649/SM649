@@ -1,48 +1,82 @@
-<svg width="900" height="180" xmlns="http://www.w3.org/2000/svg">
+<svg width="900" height="200" xmlns="http://www.w3.org/2000/svg">
   <defs>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#1f6feb;stop-opacity:0.4"/>
+      <stop offset="100%" style="stop-color:#0d1117;stop-opacity:0"/>
+    </radialGradient>
     <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#0d1117"/>
-      <stop offset="50%" style="stop-color:#161b22"/>
-      <stop offset="100%" style="stop-color:#1f2937"/>
+      <stop offset="0%" style="stop-color:#020408">
+        <animate attributeName="stop-color" values="#020408;#0d1f3c;#020408" dur="5s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" style="stop-color:#0d1117">
+        <animate attributeName="stop-color" values="#0d1117;#0a1628;#0d1117" dur="5s" repeatCount="indefinite"/>
+      </stop>
     </linearGradient>
-    <linearGradient id="wave1" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#1f6feb;stop-opacity:0.8"/>
-      <stop offset="100%" style="stop-color:#58a6ff;stop-opacity:0.4"/>
-    </linearGradient>
-    <linearGradient id="wave2" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#58a6ff;stop-opacity:0.3"/>
-      <stop offset="100%" style="stop-color:#1f6feb;stop-opacity:0.6"/>
-    </linearGradient>
+    <filter id="blur">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+    <filter id="textglow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
   </defs>
 
   <!-- Background -->
-  <rect width="900" height="180" fill="url(#bg)" rx="0"/>
+  <rect width="900" height="200" fill="url(#bg)"/>
 
-  <!-- Wave shapes -->
-  <path d="M0,120 C150,80 300,140 450,100 C600,60 750,120 900,90 L900,180 L0,180 Z" fill="url(#wave1)">
-    <animate attributeName="d"
-      values="M0,120 C150,80 300,140 450,100 C600,60 750,120 900,90 L900,180 L0,180 Z;
-              M0,100 C150,130 300,80 450,120 C600,140 750,80 900,110 L900,180 L0,180 Z;
-              M0,120 C150,80 300,140 450,100 C600,60 750,120 900,90 L900,180 L0,180 Z"
-      dur="6s" repeatCount="indefinite"/>
-  </path>
-  <path d="M0,140 C200,100 400,160 600,120 C750,90 850,140 900,130 L900,180 L0,180 Z" fill="url(#wave2)" opacity="0.6">
-    <animate attributeName="d"
-      values="M0,140 C200,100 400,160 600,120 C750,90 850,140 900,130 L900,180 L0,180 Z;
-              M0,130 C200,155 400,110 600,145 C750,160 850,115 900,140 L900,180 L0,180 Z;
-              M0,140 C200,100 400,160 600,120 C750,90 850,140 900,130 L900,180 L0,180 Z"
-      dur="8s" repeatCount="indefinite"/>
-  </path>
+  <!-- Animated glow orbs -->
+  <circle cx="200" cy="100" r="120" fill="#1f6feb" filter="url(#blur)" opacity="0.18">
+    <animate attributeName="cx" values="200;400;600;400;200" dur="10s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.18;0.28;0.18" dur="5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="700" cy="80" r="100" fill="#58a6ff" filter="url(#blur)" opacity="0.12">
+    <animate attributeName="cx" values="700;500;300;500;700" dur="12s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.12;0.22;0.12" dur="6s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="450" cy="160" r="80" fill="#3fb950" filter="url(#blur)" opacity="0.08">
+    <animate attributeName="cy" values="160;80;160" dur="8s" repeatCount="indefinite"/>
+  </circle>
 
-  <!-- Text -->
-  <text x="450" y="68" font-family="Segoe UI, Arial, sans-serif" font-size="36" font-weight="700"
-    fill="white" text-anchor="middle" opacity="0">
+  <!-- Floating dots -->
+  <circle cx="80" cy="40" r="2" fill="#58a6ff" opacity="0.6">
+    <animate attributeName="cy" values="40;20;40" dur="3s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.6;1;0.6" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="820" cy="60" r="1.5" fill="#58a6ff" opacity="0.5">
+    <animate attributeName="cy" values="60;40;60" dur="4s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="150" cy="150" r="1.5" fill="#3fb950" opacity="0.5">
+    <animate attributeName="cy" values="150;130;150" dur="3.5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="750" cy="140" r="2" fill="#1f6feb" opacity="0.6">
+    <animate attributeName="cy" values="140;160;140" dur="5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="380" cy="30" r="1.5" fill="#58a6ff" opacity="0.4">
+    <animate attributeName="cy" values="30;50;30" dur="4.5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="600" cy="170" r="2" fill="#58a6ff" opacity="0.5">
+    <animate attributeName="cy" values="170;150;170" dur="3.8s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Horizontal accent line -->
+  <line x1="0" y1="195" x2="900" y2="195" stroke="#1f6feb" stroke-width="2" opacity="0.4"/>
+  <line x1="300" y1="195" x2="600" y2="195" stroke="#58a6ff" stroke-width="2" opacity="0.8">
+    <animate attributeName="x1" values="300;100;300" dur="4s" repeatCount="indefinite"/>
+    <animate attributeName="x2" values="600;800;600" dur="4s" repeatCount="indefinite"/>
+  </line>
+
+  <!-- Name text with glow -->
+  <text x="450" y="105" font-family="Segoe UI, Arial, sans-serif" font-size="40" font-weight="700"
+    fill="#58a6ff" text-anchor="middle" filter="url(#textglow)" opacity="0">
     Saleh Muhammad
-    <animate attributeName="opacity" from="0" to="1" dur="1.2s" fill="freeze"/>
+    <animate attributeName="opacity" values="0;0;1" dur="1.5s" fill="freeze"/>
+    <animate attributeName="fill" values="#58a6ff;#79c0ff;#58a6ff" dur="4s" begin="1.5s" repeatCount="indefinite"/>
   </text>
-  <text x="450" y="105" font-family="Segoe UI, Arial, sans-serif" font-size="15"
+
+  <!-- Subtitle -->
+  <text x="450" y="142" font-family="Segoe UI, Arial, sans-serif" font-size="14" letter-spacing="3"
     fill="#8b949e" text-anchor="middle" opacity="0">
-    Software Engineer · AI/ML · SQA &amp; Automation
-    <animate attributeName="opacity" from="0" to="1" dur="1.2s" begin="0.5s" fill="freeze"/>
+    SOFTWARE ENGINEER  ·  AI / ML  ·  SQA &amp; AUTOMATION
+    <animate attributeName="opacity" values="0;0;0.85" dur="2.2s" fill="freeze"/>
   </text>
 </svg>
