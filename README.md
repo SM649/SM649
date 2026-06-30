@@ -73,6 +73,15 @@ I'm a **Software Engineering graduate** from the National University of Modern L
   <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white"/>
 </p>
 
+**AI Tools & Coding Assistants**
+<p>
+  <img src="https://img.shields.io/badge/Claude_Code-D97757?style=flat&logo=anthropic&logoColor=white"/>
+  <img src="https://img.shields.io/badge/GitHub_Copilot-000000?style=flat&logo=github&logoColor=white"/>
+  <img src="https://img.shields.io/badge/OpenAI_Codex-412991?style=flat&logo=openai&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Replit-F26207?style=flat&logo=replit&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Lovable-FF4785?style=flat&logo=heart&logoColor=white"/>
+</p>
+
 **Tools & Workflow**
 <p>
   <img src="https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white"/>
