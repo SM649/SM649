@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Saleh%20Muhammad&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=Software%20Engineer%20%C2%B7%20AI%2FML%20%C2%B7%20SQA%20%26%20Automation&descAlignY=55&descSize=16" alt="header"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1f6feb,100:58a6ff&height=180&section=header&text=Saleh+Muhammad&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Software+Engineer+·+AI/ML+·+SQA+%26+Automation&descAlignY=58&descSize=16&descColor=8b949e" alt="header"/>
 </p>
 
 <p align="center">
@@ -140,5 +140,5 @@ A look at AI reliability as an infrastructure problem — arguing that the wrapp
 <p align="center"><i>"AI reliability is an infrastructure problem — the layer around the model matters."</i></p>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" alt="footer"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:58a6ff,50:1f6feb,100:0d1117&height=100&section=footer" alt="footer"/>
 </p>
