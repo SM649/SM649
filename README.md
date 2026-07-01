@@ -110,12 +110,16 @@ I'm a **Software Engineering graduate** from the National University of Modern L
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=SM649&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&cache_seconds=1800"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SM649&layout=compact&theme=tokyonight&langs_count=8&cache_seconds=1800"/>
+  <img src="https://streak-stats.demolab.com/?user=SM649&theme=tokyonight&hide_border=false" alt="GitHub Streak"/>
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com/?user=SM649&theme=tokyonight&hide_border=false" alt="GitHub Streak"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=SM649&theme=tokyonight" alt="Profile Summary" width="100%"/>
+</p>
+
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=SM649&theme=tokyonight" alt="Repos per Language"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=SM649&theme=tokyonight" alt="Most Commit Language"/>
 </p>
 
 <p align="center">
