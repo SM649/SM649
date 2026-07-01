@@ -146,7 +146,7 @@ A look at AI reliability as an infrastructure problem — arguing that the wrapp
   </a>
 </p>
 
-<p align="center"><i>"AI reliability is an infrastructure problem — the layer around the model matters."</i></p>
+<p align="center"><i>"Any sufficiently advanced technology is indistinguishable from magic — but engineers know where the magic breaks."</i></p>
 
 <p align="center">
   <img src="footer.svg" alt="footer" width="100%"/>
