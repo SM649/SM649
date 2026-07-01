@@ -114,12 +114,12 @@ I'm a **Software Engineering graduate** from the National University of Modern L
 </p>
 
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=SM649&theme=tokyonight" alt="Profile Summary" width="100%"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=SM649&theme=tokyonight" alt="Profile Summary" width="98%"/>
 </p>
 
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=SM649&theme=tokyonight" alt="Repos per Language"/>
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=SM649&theme=tokyonight" alt="Most Commit Language"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=SM649&theme=tokyonight" alt="Repos per Language" width="48%"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=SM649&theme=tokyonight" alt="Most Commit Language" width="48%"/>
 </p>
 
 <p align="center">
