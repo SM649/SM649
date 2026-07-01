@@ -97,9 +97,9 @@ I'm a **Software Engineering graduate** from the National University of Modern L
 
 | Project | Description | Tech |
 | ------- | ----------- | ---- |
-| 🎬 **[Intelligent YouTube Comment Analyzer](https://github.com/SM649)** | Real-time YouTube comment analysis surfacing sentiment trends, topics, and emoji feedback, with auto-generated summaries (Final Year Project). | Flask · BERT · NLP · YouTube Data API |
+| 🎬 **[Intelligent YouTube Comment Analyzer](https://github.com/SM649/Intelligent-Youtube-Comment-Analyzer)** | Real-time YouTube comment analysis surfacing sentiment trends, topics, and emoji feedback, with auto-generated summaries (Final Year Project). | Flask · BERT · NLP · YouTube Data API |
 | 📝 **[Summarizer](https://github.com/SM649/Summarizer)** | Generates concise, fixed-length summaries of long text using the T5 transformer model. | Python · T5 · Flask |
-| 🌦️ **[Weather-App-Flask](https://github.com/SM649/Weather-App-Flask)** | Global real-time weather lookups by city using the OpenWeather API, with a clean interface for key metrics. | Flask · OpenWeather API |
+| 🌦️ **[Hotel Managemnet System](https://github.com/SM649/Royal-Stay-HMS)** | Global real-time weather lookups by city using the OpenWeather API, with a clean interface for key metrics. | Flask · OpenWeather API |
 | 🔄 **[Edit-Master](https://github.com/SM649/Edit-Master)** | A Python tool to convert files from one extension/format to another. | Flask · OpenCV |
 | 💼 **[SMRAJA Web Developer](https://github.com/SM649/SMRAJA-Web-Developer)** | Personal portfolio showcasing web design & development work. | JavaScript · HTML · CSS |
 
