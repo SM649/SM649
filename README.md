@@ -39,8 +39,8 @@ I'm a **Software Engineering graduate** from the National University of Modern L
 
 ## 🛠️ Tech Stack & Tools
 
-**Languages**
-<p>
+<p align="center"><b>Languages</b></p>
+<p align="center">
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white"/>
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black"/>
   <img src="https://img.shields.io/badge/C++-00599C?style=flat&logo=cplusplus&logoColor=white"/>
@@ -48,8 +48,8 @@ I'm a **Software Engineering graduate** from the National University of Modern L
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white"/>
 </p>
 
-**Frameworks & Libraries**
-<p>
+<p align="center"><b>Frameworks & Libraries</b></p>
+<p align="center">
   <img src="https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black"/>
   <img src="https://img.shields.io/badge/Flask-000000?style=flat&logo=flask&logoColor=white"/>
   <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat&logo=tailwindcss&logoColor=white"/>
@@ -57,8 +57,8 @@ I'm a **Software Engineering graduate** from the National University of Modern L
   <img src="https://img.shields.io/badge/Playwright-2EAD33?style=flat&logo=playwright&logoColor=white"/>
 </p>
 
-**AI / ML**
-<p>
+<p align="center"><b>AI / ML</b></p>
+<p align="center">
   <img src="https://img.shields.io/badge/NLP-FF6F00?style=flat&logo=openai&logoColor=white"/>
   <img src="https://img.shields.io/badge/Generative_AI-412991?style=flat&logo=openai&logoColor=white"/>
   <img src="https://img.shields.io/badge/RAG-0099E5?style=flat&logo=databricks&logoColor=white"/>
@@ -66,15 +66,15 @@ I'm a **Software Engineering graduate** from the National University of Modern L
   <img src="https://img.shields.io/badge/Prompt_Engineering-5A29E4?style=flat&logo=openai&logoColor=white"/>
 </p>
 
-**Databases**
-<p>
+<p align="center"><b>Databases</b></p>
+<p align="center">
   <img src="https://img.shields.io/badge/SQL-4479A1?style=flat&logo=mysql&logoColor=white"/>
   <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white"/>
   <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white"/>
 </p>
 
-**AI Tools & Coding Assistants**
-<p>
+<p align="center"><b>AI Tools & Coding Assistants</b></p>
+<p align="center">
   <img src="https://img.shields.io/badge/Claude_Code-D97757?style=flat&logo=anthropic&logoColor=white"/>
   <img src="https://img.shields.io/badge/GitHub_Copilot-000000?style=flat&logo=github&logoColor=white"/>
   <img src="https://img.shields.io/badge/OpenAI_Codex-412991?style=flat&logo=openai&logoColor=white"/>
@@ -82,8 +82,8 @@ I'm a **Software Engineering graduate** from the National University of Modern L
   <img src="https://img.shields.io/badge/Lovable-FF4785?style=flat&logo=heart&logoColor=white"/>
 </p>
 
-**Tools & Workflow**
-<p>
+<p align="center"><b>Tools & Workflow</b></p>
+<p align="center">
   <img src="https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white"/>
   <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat&logo=githubactions&logoColor=white"/>
   <img src="https://img.shields.io/badge/Jira-0052CC?style=flat&logo=jira&logoColor=white"/>
